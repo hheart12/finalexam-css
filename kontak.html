@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="assets/LogoUNKLAB.png" width="100" height="100"></a>
+            <div class="links" id="NLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                    <li><a href="biaya.html">Biaya Kuliah</a></li>
+                    <li><a href="beasiswa.html">Beasiswa</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Kontak Kami</h1>
+    </section>
+
+    <section class="loc">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5973543774953!2d124.98178571442206!3d1.4175027989662095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32870a95df6309dd%3A0x21d86e4847556add!2sKlabat%20University!5e0!3m2!1sen!2sid!4v1665397926642!5m2!1sen!2sid&quot;"width="800" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div><p>Apabila Anda Memiliki pertanyaan tentang UNKLAB dan proses pendaftaran mahasiswa baru, silahkan ajukan pertanyaan Anda melalui nomor kontak dibawah ini.</p></div>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Alamat Kampus</h5>
+                        <p>Jalan Arnold Mononutu, Kel.Airmadidi Bawah,Kec.Airmadidi,Kab.Minahasa Utara,95371,Provinsi Sulawesi Utara</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Nomor Telepon Kantor</h5>
+                        <p>+62 431 891 035</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-whatsapp"></i>
+                    <span>
+                        <h5>Nomor Telepon/WA</h5>
+                        <p>0811 1234 1234</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>Alamat Email</h5>
+                        <p>admission@unklab.ac.id</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Tentang Kami</h4>
+        <p>Sekarang ini UNKLAB memiliki 2 (satu) Program Pascasarjana, 7 (tujuh) fakultas dan 1 (satu) <br>akademi, yaitu: (1) Pascasarjana Magister Manajemen (2) Fakultas Ekonomi (FEKON), (3) Fakultas Filsafat, (4) Fakultas Keguruan dan Ilmu Pendidikan (FKIP), (5) Fakultas Ilmu Keperawatan<br> (6) Fakultas Ilmu Komputer (FIK), (7) Fakultas Pertanian, dan (8) Akademi Sekretari Klabat.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>UNKLAB &copy; 2022</p>
+    </section>
+
+    <script>
+
+        var NLinks = document.getElementById("NLinks")
+        function showMenu(){
+            NLinks.style.right = "0";
+        }
+        function hideMenu(){
+            NLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>

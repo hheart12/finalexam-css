@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header"> 
+        <nav>
+            <a href="index.html"><img src="assets/LogoUNKLAB.png" width="100" height="100"></a>
+            <div class="links" id="NLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="beranda.html">Beranda</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="pendaftaran.html">Pendaftaran</a></li>
+                    <li><a href="biaya.html">Biaya Kuliah</a></li>
+                    <li><a href="beasiswa.html">Beasiswa</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Beasiswa</h1>
+    </section>
+
+    <section id="beasiswa-uk">
+        <div class="picts">
+            <img src="/assets/beasiswa.jpg" alt="bea" width="475" height="270">
+        </div>
+        <div class="bp">
+            <h3>1. Beasiswa Prestasi</h3>
+            <p>Beasiswa prestasi diberikan kepada mahasiswa yang selama menempuh masa studi di level SMA/SMK atau sederajat memperoleh 
+                juara umum 1, 2 dan 3. <br> Benefit yang didapatkan dari beasiswa prestasi adalah potongan uang kuliah (hanya SKS) sebanyak 
+                20 SKS selama menempuh perkuliahan di UNKLAB.</p>
+        </div>
+        <div class="kip">
+            <h3>2. Kartu Indonesia Pintar (KIP) Kuliah</h3>
+            <p>Program beasiswa dari Pemerintah melalui Kementrian Pendidikan,Kebudayaan,<br>Riset,dan Teknologi unutuk mahasiswa yang membutuhkan.Syarat 
+                dan ketentuan mengikuti aturan dari Kementrian Pendidikan,<br>Kebudayaan,Riset,dan Teknologi.</p>
+        </div>
+        <div class="lb">
+            <h3>3. Program Student Labor</h3>
+            <p>Program student labor merupakan salah satu dari UNKLAB sejak awal UNKLAB berdiri hingga saat ini. Program student labor memberikan 
+                kesempatan kepada mahasiswa/i anggota Gereja Masehi Advent Hari Ketujuh untuk dapat membiayai perkuliahan dengan bekerja di berbagi departmen yang ada di UNKLAB.</p>
+        </div>
+    </section>
+    
+
+    <section class="footer">
+        <h4>Tentang Kami</h4>
+        <p>Sekarang ini UNKLAB memiliki 2 (satu) Program Pascasarjana, 7 (tujuh) fakultas dan 1 (satu) <br>akademi, yaitu: 
+            (1) Pascasarjana Magister Manajemen (2) Fakultas Ekonomi (FEKON), (3) Fakultas Filsafat, (4) Fakultas Keguruan dan Ilmu Pendidikan (FKIP), 
+            (5) Fakultas Ilmu Keperawatan<br> (6) Fakultas Ilmu Komputer (FIK), (7) Fakultas Pertanian, dan (8) Akademi Sekretari Klabat.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>UNKLAB &copy; 2022</p>
+    </section>
+
+    <script>
+
+        var NLinks = document.getElementById("NLinks")
+        function showMenu(){
+            NLinks.style.right = "0";
+        }
+        function hideMenu(){
+            NLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
